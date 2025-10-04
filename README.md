@@ -1,1 +1,27 @@
-# agify
+Test Plan (Agify BDD Project)
+
+Project: Agify API BDD Testing 
+Author: Abidemi Date: 2025-10-03
+
+Objective
+Test the Agify API using BDD to ensure it handles single names, multiple names, and edge cases like missing input correctly.
+
+Scope
+* Functional testing of Agify API endpoints.
+* Verify response status codes and expected fields.
+* Ensure batch requests return the correct array structure.
+
+Test Scenarios
+Scenario	Steps	Expected Result
+Predict age for a single name	Given a name, When API is called	Status 200, response contains name, age, count
+Predict age without a name	When API is called without a name	Status 400/422 or defined behavior
+Predict age for multiple names	Given multiple names, When API is called	Status 200, response is an array of correct length
+
+Tools
+* Node.js + npm
+* TypeScript
+* Cucumber (BDD)
+* ts-node
+* Chai (Assertions)
+* Axios (API calls)
+* Vscode
