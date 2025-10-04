@@ -1,7 +1,7 @@
 Test Plan (Agify BDD Project)
 
-Project: Agify API BDD Testing 
-Author: Abidemi Date: 2025-10-03
+Project: Agify API BDD Testing
+Author: AbidemiDate: 2025-10-03
 
 Objective
 Test the Agify API using BDD to ensure it handles single names, multiple names, and edge cases like missing input correctly.
@@ -25,3 +25,5 @@ Tools
 * Chai (Assertions)
 * Axios (API calls)
 * Vscode
+
+
